@@ -1,4 +1,4 @@
-;;; flymake-cppcheck.el --- Flymake work with CppCheck for C/C++
+;;; flymake-cppcheck.el --- Flymake work with Cppcheck for C/C++
 
 ;; Copyright 2014 Akiha Senda
 

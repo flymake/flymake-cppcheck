@@ -1,9 +1,9 @@
 flymake-cppcheck.el
 ================
 
-CppCheck for Emacs with flymake-mode.
+Cppcheck for Emacs with flymake-mode.
 
-To use [CppCheck](http://cppcheck.sourceforge.net/) with Emacs, you will need CppCheck installed.
+To use [Cppcheck](http://cppcheck.sourceforge.net/) with Emacs, you will need Cppcheck installed.
 
 You should be able to run
 
@@ -36,30 +36,13 @@ Through the command more checks can be enabled.
     (custom-set-variables
      '(flymake-cppcheck-enable "all"))
 
-* `error`
-
-  * Used when bugs are found.
-
-* `warning`
-
-  * Suggestions about defensive programming to prevent bugs.
-
-* `style`
-
-  * Stylistic issues related to code cleanup (unused functions, redundant code, constness, and such).
-
-* `performance`
-
-  * Suggestions for making the code faster. These suggestions are only based on common knowledge.
-  * It is not certain you’ll get any measurable difference in speed by ﬁxing these messages.
-
-* `portability`
-
-  * Portability warnings. 64-bit portability. code might work different on different compilers. etc.
-
-* `information`
-
-  * Informational messages about checking problems.
+* warning
+* performance
+* information
+* style file.c
+* warning
+* unusedFunction
+* all
 
 cppcheck command location
 ----------------------
@@ -76,3 +59,9 @@ one of 'tempdir or 'inplace (default).
 
     (custom-set-variables
      '(flymake-cppcheck-location 'tempdir))
+
+For more informations
+---------------------
+
+Please refer to [official document](http://cppcheck.sourceforge.net/manual.pdf).
+
