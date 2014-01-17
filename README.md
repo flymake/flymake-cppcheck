@@ -34,18 +34,17 @@ By default only `error` messages are shown.
 Through the command more checks can be enabled.
 
     (custom-set-variables
-    '(flymake-cppcheck-enable "all"))
+     '(flymake-cppcheck-enable "all"))
 
 multi:
 
     (custom-set-variables
-     '(flymake-cppcheck-enable "warning,information,style"))
+     '(flymake-cppcheck-enable "warning,performance,information,style"))
 
 * warning
 * performance
 * information
 * style
-* warning
 * unusedFunction
 * all
 
