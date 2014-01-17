@@ -64,7 +64,7 @@ Through the --enable command more checks can be enabled."
 
 (defun flymake-cppcheck-build-command-line (filename)
   "Construct a command that flymake can use to check C/C++ source."
-  (list flymake-cppcheck-command
+  (list flymake-cppcheck-command "--quiet"
         (concat "--template=" flymake-cppcheck-template)
         (if (string-match "error" flymake-cppcheck-enable)
             "" (concat "--enable=" flymake-cppcheck-enable))
