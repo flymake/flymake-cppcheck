@@ -50,7 +50,7 @@ Through the --enable command more checks can be enabled."
   :type 'string
   :group 'flymake-cppcheck)
 
-(defcustom flymake-cppcheck-command (executable-find "cppcheck")
+(defcustom flymake-cppcheck-command (or (executable-find "cppcheck") "")
   "The name of the cppcheck executable."
   :type 'string
   :group 'flymake-cppcheck)
