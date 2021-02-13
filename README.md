@@ -3,6 +3,8 @@ Because, you can run the checker more than one. Of course, including `cppcheck`.
 
 # flymake-cppcheck.el
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Cppcheck for Emacs with flymake-mode.
 
 To use [Cppcheck](http://cppcheck.sourceforge.net/) with Emacs, you will need Cppcheck installed.
