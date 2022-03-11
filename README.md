@@ -1,9 +1,11 @@
 **NOTE: I recommend that you use the [flycheck](https://github.com/flycheck/flycheck).
 Because, you can run the checker more than one. Of course, including `cppcheck`.**
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # flymake-cppcheck.el
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CI](https://github.com/flymake/flymake-cppcheck/actions/workflows/test.yml/badge.svg)](https://github.com/flymake/flymake-cppcheck/actions/workflows/test.yml)
 
 Cppcheck for Emacs with flymake-mode.
 
