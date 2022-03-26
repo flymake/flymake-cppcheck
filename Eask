@@ -1,5 +1,7 @@
-(source "melpa")
 (source "gnu")
+(source "melpa")
+
+(package "flymake-cppcheck" "1.0.0" "Flymake work with Cppcheck for C/C++")
 
 (package-file "flymake-cppcheck.el")
 
