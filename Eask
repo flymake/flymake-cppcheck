@@ -2,6 +2,9 @@
          "1.0.0"
          "Flymake work with Cppcheck for C/C++")
 
+(website-url "https://github.com/senda-akiha/flymake-cppcheck/")
+(keywords "flymake" "cppcheck" "C" "C++")
+
 (package-file "flymake-cppcheck.el")
 
 (source "gnu")
