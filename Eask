@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "flymake-cppcheck"
          "1.0.0"
          "Flymake work with Cppcheck for C/C++")
